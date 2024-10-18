@@ -1,8 +1,10 @@
 const express = require('express');
 const { resolve } = require('path');
 let cors = require('cors');
-app.use(cors());
+
 const app = express();
+app.use(cors());
+
 const port = 3000;
 
 app.use(express.static('static'));z
