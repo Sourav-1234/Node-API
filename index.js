@@ -7,11 +7,8 @@ app.use(cors());
 
 const port = 3000;
 
-app.use(express.static('static'));z
+app.use(express.static('static'));
 
-app.get('/', (req, res) => {
-  res.sendFile(resolve(__dirname, 'pages/index.html'));
-});
 
 
 // Problem-1 -Get Cart Total 
